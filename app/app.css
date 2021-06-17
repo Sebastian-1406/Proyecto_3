@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor{
+    padding: 1em;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.header__contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__contenedor-logo{
+    width: 25%;
+}
+.contenedor__lista{
+    list-style: none;
+    padding: 0;
+}
+.contenedor__lista-li{
+    display: inline-block;
+    padding: 5px 10px;
+    
+}
+.contenedor__lista-link{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color:  hsl(238, 22%, 44%)
+}
+.header__contenedor-imagen{
+    width: 100%;
+    margin: 7em 0 1em 0
+}
+.header__titulo{
+    text-align: center;
+    margin: 1em 0;
+    font-size: 25px;
+    color: hsl(243, 87%, 12%);
+}
+.header__titulo-parrafo{
+    text-align: center;
+    color: hsl(238, 22%, 44%);
+
+}
+.formulario{
+    margin: 1.5em 0;
+}
+.formulario__input{
+    width: 100%;
+    padding: 10px 1em;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: solid 2px hsla(239, 22%, 44%, 0.829);;
+}
+.formulario__input-enviar{
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: hsl(224, 93%, 58%);
+    color: hsl(0, 17%, 91%);
+    box-shadow: 0px 0px 5px 0px rgb(0, 0 ,0 ,0.5);
+}
+.principal{
+    margin-top: 5em;
+}
+.principal__imagen{
+    width: 100%;
+    vertical-align: middle;
+}
+
+.section__productive{
+    background-color: #F8F8FE;
+    padding: 1em;
+}
+.section__productive-imagen{
+    display: block;
+    margin: auto;
+    width: 80%;
+    
+}
+.section__productive-titulo{
+    text-align: center;
+    font-size: 17px;
+    margin: 4em 0 2em 0;
+    color: hsl(243, 87%, 12%);
+    font-weight: 900;
+    
+}
+.section__productive-parrafo{
+    margin: 1em 0 1em 0;
+    color: hsl(240, 22%, 44%);
+    opacity: 0.8;
+}
+.section__productive-info{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 2.5em 0;
+
+}
+
+.fa-arrow-alt-circle-right{
+    color:  hsl(170, 45%, 43%);
+    
+}
+.section__productive-info-modificar{
+    color:  hsl(170, 45%, 43%);
+    padding-bottom: 5px;
+    border-bottom: solid 1.5px  hsl(170, 45%, 43%);
+}
+.section__target{
+    width: 85%;
+    margin: auto;
+}
+.section__target-contenido{
+    margin: 2em 0 4em 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 0px rgb(0, 0 ,0, 0.4 );
+    padding: 1em;
+}
+.section__target-contenido-parrafo{
+    font-size: 13px;
+    line-height: 1.5;
+}
+.section__target-info{
+    margin: 1em 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.section__target-info-imagen{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.section__target-nombre{
+    font-weight: 600;
+    font-size: 14px;
+}
+.section__target-trabajo{
+    font-size: 10px ;
+}
+.section__acceso{
+    background-color: hsl(238, 22%, 44%)
+}
+.section__acceso-contenedor{
+    padding: 2.5em;
+}
+.section__acceso-titulo{
+    text-align: center;
+    font-size: 20px;
+    margin: 1em 0;
+    color: white;
+}
+.section__acceso-titulo-parrafo{
+    text-align: center;
+    color: hsl(0, 17%, 91%);
+    font-size: 14px;
+}
+.formulario__acceso{
+    width: 90%;
+    margin: 1.5em auto;
+}
+.formulario__acceso .formulario__input{
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    box-shadow: none;
+    font-weight: normal;
+}
+.formulario__acceso .formulario__input::placeholder{
+    color: hsl(0, 0%, 83%);
+}
+.footer{
+    background-color: hsl(243, 87%, 12%);
+    color: #eee;
+}
+.footer__contenedor{
+    padding: 2em;
+}
+.footer__contenedor-imagen{
+    display: block;
+    width: 60%;
+    margin: 2em 0;
+}
+.address__item{
+    margin: 1em 0;
+}
+.address___imagen{
+    display: inline-block;
+    margin-right: 15px;
+}
+.footer__lista{
+    list-style: none;
+    padding: 0;
+    margin: 2em 0;
+}
+.footer__lista li{
+    padding: 0.5em 0;
+    font-weight: 500;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+}
+.fab{
+    padding: 7px;
+    margin: 0 10px;
+    border-radius: 50%;
+    border: solid 0.3px white;
+    font-size: 15px;
+}
